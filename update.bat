@@ -7,5 +7,5 @@ set URL=
 %BIN%\unzip -uo update
 del update.zip
 move /y %~p0tumble-hub-master\* %~p0
-rmdir /s /q tumble-hub-master
+rmdir /S /Q tumble-hub-master 
 pause
