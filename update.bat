@@ -1,6 +1,6 @@
 @echo off
 set URL=https://github.com/tumblegamer/tumble-hub/archive/master.zip
-set BIN=%~p0bin
+set BIN=%~dp0bin
 
 %BIN%\wget --no-check-certificate -Oupdate.zip %URL%
 set URL=
