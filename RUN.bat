@@ -5,7 +5,7 @@ Setlocal EnableDelayedExpansion
 cd %~dp0
 set BIN=%~dp0bin
 
-::call update
+call update
 :restart
 set restart=
 cls
