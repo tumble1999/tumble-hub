@@ -1,6 +1,5 @@
 @echo off
 set URL=https://github.com/tumblegamer/tumble-hub/archive/master.zip
-set BIN=%~dp0bin
 
 %BIN%\wget --no-check-certificate -Oupdate.zip %URL%
 set URL=
@@ -8,5 +7,3 @@ set URL=
 del update.zip
 move /y %~p0tumble-hub-master\* %~p0
 rmdir /S /Q tumble-hub-master 
-
-pause
