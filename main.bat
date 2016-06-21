@@ -42,4 +42,6 @@ if %option%==//error// (
 )
 
 :go
-echo %option%
+ if exist "%MENU%\!file!\!file!.bat" (
+  call %MENU%\!file!\!file!.bat
+ )
